@@ -8,5 +8,5 @@
 ### Namespace
 	http://schemas/horsesoft.co.uk
 
-![Image of OpenKeyNotation Wheel](https://github.com/horseyhorsey/Horsesoft.Wpf.Controls.Audio/OpenKeyWheelSnap.jpg)
+![Image of OpenKeyNotation Wheel](OpenKeyWheelSnap.jpg)
 
