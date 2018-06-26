@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Horsesoft.Wpf.Controls.Audio", "Horsesoft.Wpf.Controls.Audio\Horsesoft.Wpf.Controls.Audio.csproj", "{E4D74EA2-A549-45B0-8165-365471D2C401}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Horsesoft.Wpf.Controls.Audio.UITest", "Horsesoft.Wpf.Controls.Audio.UITest\Horsesoft.Wpf.Controls.Audio.UITest.csproj", "{5CB8A7D0-46C3-4E06-B8FD-0C94556F0E93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4D74EA2-A549-45B0-8165-365471D2C401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4D74EA2-A549-45B0-8165-365471D2C401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4D74EA2-A549-45B0-8165-365471D2C401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4D74EA2-A549-45B0-8165-365471D2C401}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CB8A7D0-46C3-4E06-B8FD-0C94556F0E93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CB8A7D0-46C3-4E06-B8FD-0C94556F0E93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CB8A7D0-46C3-4E06-B8FD-0C94556F0E93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CB8A7D0-46C3-4E06-B8FD-0C94556F0E93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F546E7A-2CF2-4C86-804C-5EB550B1FDE5}
+	EndGlobalSection
+EndGlobal

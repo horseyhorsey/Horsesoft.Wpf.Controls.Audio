@@ -1,0 +1,288 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:collections="clr-namespace:System.Collections;assembly=mscorlib"
+    xmlns:local="clr-namespace:Horsesoft.Wpf.Controls.Audio">
+
+    <collections:ArrayList x:Key="OpenKeyButtons">
+        <local:OpenKeyNotationToggleButton OpenKey="F" Content="12D" Width="167" Height="102" Canvas.Left="0" Canvas.Top="0"
+                                               WheelImage="pack://application:,,,/Horsesoft.Wpf.Controls.Audio;component/OpenKeyImages/image7.png"                                               
+                                               >
+            <ToggleButton.RenderTransform>
+                <TransformGroup>
+                    <MatrixTransform Matrix="0.999875,0,0,0.999875,228.971,-1.33514e-005"/>
+                </TransformGroup>
+            </ToggleButton.RenderTransform>
+        </local:OpenKeyNotationToggleButton>
+        <local:OpenKeyNotationToggleButton OpenKey="Dm" Content="12M" Width="120" Height="135" Canvas.Left="0" Canvas.Top="0"
+                                               WheelImage="pack://application:,,,/Horsesoft.Wpf.Controls.Audio;component/OpenKeyImages/image6.png"
+                                               >
+            <ToggleButton.RenderTransform>
+                <TransformGroup>
+                    <MatrixTransform Matrix="0.999875,0,0,0.999875,251.969,89.9887"/>
+                </TransformGroup>
+            </ToggleButton.RenderTransform>
+        </local:OpenKeyNotationToggleButton>
+        <local:OpenKeyNotationToggleButton OpenKey="C" Content="1D" Width="172" Height="146" Canvas.Left="0" Canvas.Top="0"
+                                               WheelImage="pack://application:,,,/Horsesoft.Wpf.Controls.Audio;component/OpenKeyImages/image5.png"
+                                               >
+            <ToggleButton.RenderTransform>
+                <TransformGroup>
+                    <MatrixTransform Matrix="0.999875,0,0,0.999875,369.954,7.99897"/>
+                </TransformGroup>
+            </ToggleButton.RenderTransform>
+        </local:OpenKeyNotationToggleButton>
+        <local:OpenKeyNotationToggleButton OpenKey="Am" Content="1M" Width="142" Height="150" Canvas.Left="0" Canvas.Top="0"
+                                               WheelImage="pack://application:,,,/Horsesoft.Wpf.Controls.Audio;component/OpenKeyImages/image4.png"
+                                               >
+            <ToggleButton.RenderTransform>
+                <TransformGroup>
+                    <MatrixTransform Matrix="0.999875,0,0,0.999875,336.958,94.9881"/>
+                </TransformGroup>
+            </ToggleButton.RenderTransform>
+        </local:OpenKeyNotationToggleButton>
+        <local:OpenKeyNotationToggleButton OpenKey="G" Content="2D" Width="152" Height="171" Canvas.Left="0" Canvas.Top="0"
+                                               WheelImage="pack://application:,,,/Horsesoft.Wpf.Controls.Audio;component/OpenKeyImages/image3.png"
+                                               >
+            <ToggleButton.RenderTransform>
+                <TransformGroup>
+                    <MatrixTransform Matrix="0.999875,0,0,0.999875,476.94,87.989"/>
+                </TransformGroup>
+            </ToggleButton.RenderTransform>
+        </local:OpenKeyNotationToggleButton>
+        <local:OpenKeyNotationToggleButton OpenKey="Em" Content="2M" Width="156" Height="140" Canvas.Left="0" Canvas.Top="0"
+                                               WheelImage="pack://application:,,,/Horsesoft.Wpf.Controls.Audio;component/OpenKeyImages/image2.png"
+                                               >
+            <ToggleButton.RenderTransform>
+                <TransformGroup>
+                    <MatrixTransform Matrix="0.999875,0,0,0.999875,385.952,151.981"/>
+                </TransformGroup>
+            </ToggleButton.RenderTransform>
+        </local:OpenKeyNotationToggleButton>
+        <local:OpenKeyNotationToggleButton OpenKey="D" Content="3D" Width="100" Height="172" Canvas.Left="0" Canvas.Top="0"
+                                               WheelImage="pack://application:,,,/Horsesoft.Wpf.Controls.Audio;component/OpenKeyImages/image1.png"
+                                               >
+            <ToggleButton.RenderTransform>
+                <TransformGroup>
+                    <MatrixTransform Matrix="0.999875,0,0,0.999875,539.933,232.971"/>
+                </TransformGroup>
+            </ToggleButton.RenderTransform>
+        </local:OpenKeyNotationToggleButton>
+        <local:OpenKeyNotationToggleButton OpenKey="Bm" Content="3M" Height="125" Canvas.Left="0"                                               
+                                               Canvas.Top="0" Width="134"
+                                               WheelImage="pack://application:,,,/Horsesoft.Wpf.Controls.Audio;component/OpenKeyImages/image0.png"                                               
+                                               >
+            <ToggleButton.RenderTransform>
+                <TransformGroup>
+                    <MatrixTransform Matrix="0.999875,0,0,0.999875,416.948,256.968"/>
+                </TransformGroup>
+            </ToggleButton.RenderTransform>
+        </local:OpenKeyNotationToggleButton>
+        <local:OpenKeyNotationToggleButton OpenKey="A" Content="4D" Width="151" Height="171"  Canvas.Left="0" Canvas.Top="0"
+                                               WheelImage="pack://application:,,,/Horsesoft.Wpf.Controls.Audio;component/OpenKeyImages/image23.png"
+                                               >
+            <ToggleButton.RenderTransform>
+                <TransformGroup>
+                    <MatrixTransform Matrix="0.999875,0,0,0.999875,477.939,379.953"/>
+                </TransformGroup>
+            </ToggleButton.RenderTransform>
+        </local:OpenKeyNotationToggleButton>
+        <local:OpenKeyNotationToggleButton OpenKey="Gbm" Content="4M" Width="154" Height="140" Canvas.Left="0" Canvas.Top="0"
+                                               WheelImage="pack://application:,,,/Horsesoft.Wpf.Controls.Audio;component/OpenKeyImages/image22.png"
+                                               >
+            <ToggleButton.RenderTransform>
+                <TransformGroup>
+                    <MatrixTransform Matrix="0.999875,0,0,0.999875,388.95,346.957"/>
+                </TransformGroup>
+            </ToggleButton.RenderTransform>
+        </local:OpenKeyNotationToggleButton>
+        <local:OpenKeyNotationToggleButton OpenKey="E" Content="5D" Width="172" Height="146"  Canvas.Left="0" Canvas.Top="0"
+                                               WheelImage="pack://application:,,,/Horsesoft.Wpf.Controls.Audio;component/OpenKeyImages/image21.png"
+                                               >
+            <ToggleButton.RenderTransform>
+                <TransformGroup>
+                    <MatrixTransform Matrix="0.999875,0,0,0.999875,370.952,484.939"/>
+                </TransformGroup>
+            </ToggleButton.RenderTransform>
+        </local:OpenKeyNotationToggleButton>
+        <local:OpenKeyNotationToggleButton OpenKey="Dbm" Content="5M" Width="141" Height="148" Canvas.Left="0" Canvas.Top="0"
+                                               WheelImage="pack://application:,,,/Horsesoft.Wpf.Controls.Audio;component/OpenKeyImages/image20.png"
+                                               >
+            <ToggleButton.RenderTransform>
+                <TransformGroup>
+                    <MatrixTransform Matrix="0.999875,0,0,0.999875,338.956,396.95"/>
+                </TransformGroup>
+            </ToggleButton.RenderTransform>
+        </local:OpenKeyNotationToggleButton>
+        <local:OpenKeyNotationToggleButton OpenKey="B" Content="6D" Width="168" Height="102"  Canvas.Left="0" Canvas.Top="0"
+                                               WheelImage="pack://application:,,,/Horsesoft.Wpf.Controls.Audio;component/OpenKeyImages/image19.png"
+                                               >
+            <ToggleButton.RenderTransform>
+                <TransformGroup>
+                    <MatrixTransform Matrix="0.999875,0,0,0.999875,227.97,537.933"/>
+                </TransformGroup>
+            </ToggleButton.RenderTransform>
+        </local:OpenKeyNotationToggleButton>
+        <local:OpenKeyNotationToggleButton OpenKey="Abm" Content="6M" Width="121" Height="132" Canvas.Left="0" Canvas.Top="0"
+                                               WheelImage="pack://application:,,,/Horsesoft.Wpf.Controls.Audio;component/OpenKeyImages/image18.png"
+                                               >
+            <ToggleButton.RenderTransform>
+                <TransformGroup>
+                    <MatrixTransform Matrix="0.999875,0,0,0.999875,251.967,418.948"/>
+                </TransformGroup>
+            </ToggleButton.RenderTransform>
+        </local:OpenKeyNotationToggleButton>
+        <local:OpenKeyNotationToggleButton OpenKey="Gb" Content="7D" Width="166" Height="151"  Canvas.Left="0" Canvas.Top="0"
+                                               WheelImage="pack://application:,,,/Horsesoft.Wpf.Controls.Audio;component/OpenKeyImages/image17.png"
+                                               >
+            <ToggleButton.RenderTransform>
+                <TransformGroup>
+                    <MatrixTransform Matrix="0.999875,0,0,0.999875,87.9877,475.941"/>
+                </TransformGroup>
+            </ToggleButton.RenderTransform>
+        </local:OpenKeyNotationToggleButton>
+        <local:OpenKeyNotationToggleButton OpenKey="Ebm" Content="7M" Width="133" Height="151" Canvas.Left="0" Canvas.Top="0"
+                                               WheelImage="pack://application:,,,/Horsesoft.Wpf.Controls.Audio;component/OpenKeyImages/image16.png"
+                                               >
+            <ToggleButton.RenderTransform>
+                <TransformGroup>
+                    <MatrixTransform Matrix="0.999875,0,0,0.999875,151.981,388.951"/>
+                </TransformGroup>
+            </ToggleButton.RenderTransform>
+        </local:OpenKeyNotationToggleButton>
+        <local:OpenKeyNotationToggleButton OpenKey="Db" Content="8D" Width="144" Height="167"  Canvas.Left="0" Canvas.Top="0"
+                                               WheelImage="pack://application:,,,/Horsesoft.Wpf.Controls.Audio;component/OpenKeyImages/image15.png"
+                                               >
+            <ToggleButton.RenderTransform>
+                <TransformGroup>
+                    <MatrixTransform Matrix="0.999875,0,0,0.999875,9.99875,374.953"/>
+                </TransformGroup>
+            </ToggleButton.RenderTransform>
+        </local:OpenKeyNotationToggleButton>
+        <local:OpenKeyNotationToggleButton OpenKey="Bbm" Content="8M" Width="144" Height="135" Canvas.Left="0" Canvas.Top="0"
+                                               WheelImage="pack://application:,,,/Horsesoft.Wpf.Controls.Audio;component/OpenKeyImages/image14.png"
+                                               >
+            <ToggleButton.RenderTransform>
+                <TransformGroup>
+                    <MatrixTransform Matrix="0.999875,0,0,0.999875,96.9879,342.957"/>
+                </TransformGroup>
+            </ToggleButton.RenderTransform>
+        </local:OpenKeyNotationToggleButton>
+        <local:OpenKeyNotationToggleButton OpenKey="Ab" Content="9D" Width="99" Height="164"  Canvas.Left="0" Canvas.Top="0"
+                                               WheelImage="pack://application:,,,/Horsesoft.Wpf.Controls.Audio;component/OpenKeyImages/image13.png"
+                                               >
+            <ToggleButton.RenderTransform>
+                <TransformGroup>
+                    <MatrixTransform Matrix="0.999875,0,0,0.999875,0,236.97"/>
+                </TransformGroup>
+            </ToggleButton.RenderTransform>
+        </local:OpenKeyNotationToggleButton>
+        <local:OpenKeyNotationToggleButton OpenKey="Fm" Content="9M" Width="131" Height="116"  Canvas.Left="0" Canvas.Top="0"
+                                               WheelImage="pack://application:,,,/Horsesoft.Wpf.Controls.Audio;component/OpenKeyImages/image12.png"
+                                               >
+            <ToggleButton.RenderTransform>
+                <TransformGroup>
+                    <MatrixTransform Matrix="0.999875,0,0,0.999875,89.9888,260.967"/>
+                </TransformGroup>
+            </ToggleButton.RenderTransform>
+        </local:OpenKeyNotationToggleButton>
+        <local:OpenKeyNotationToggleButton OpenKey="Eb" Content="10D" Width="145" Height="166"  Canvas.Left="0" Canvas.Top="0"
+                                               WheelImage="pack://application:,,,/Horsesoft.Wpf.Controls.Audio;component/OpenKeyImages/image11.png"
+                                               >
+            <ToggleButton.RenderTransform>
+                <TransformGroup>
+                    <MatrixTransform Matrix="0.999875,0,0,0.999875,9.99875,96.9878"/>
+                </TransformGroup>
+            </ToggleButton.RenderTransform>
+        </local:OpenKeyNotationToggleButton>
+        <local:OpenKeyNotationToggleButton OpenKey="Cm" Content="10M" Width="148" Height="134" Canvas.Left="0" Canvas.Top="0"
+                                               WheelImage="pack://application:,,,/Horsesoft.Wpf.Controls.Audio;component/OpenKeyImages/image10.png"
+                                               >
+            <ToggleButton.RenderTransform>
+                <TransformGroup>
+                    <MatrixTransform Matrix="0.999875,0,0,0.999875,96.9879,160.98"/>
+                </TransformGroup>
+            </ToggleButton.RenderTransform>
+        </local:OpenKeyNotationToggleButton>
+        <local:OpenKeyNotationToggleButton OpenKey="Bb" Content="11D" Width="165" Height="150"  Canvas.Left="0" Canvas.Top="0"
+                                               WheelImage="pack://application:,,,/Horsesoft.Wpf.Controls.Audio;component/OpenKeyImages/image9.png"
+                                               >
+            <ToggleButton.RenderTransform>
+                <TransformGroup>
+                    <MatrixTransform Matrix="0.999875,0,0,0.999875,88.9889,12.9983"/>
+                </TransformGroup>
+            </ToggleButton.RenderTransform>
+        </local:OpenKeyNotationToggleButton>
+        <local:OpenKeyNotationToggleButton OpenKey="Gm" Content="11M" Width="134" Height="152" Canvas.Left="0" Canvas.Top="0"
+                                               WheelImage="pack://application:,,,/Horsesoft.Wpf.Controls.Audio;component/OpenKeyImages/image8.png"
+                                               >
+            <ToggleButton.RenderTransform>
+                <TransformGroup>
+                    <MatrixTransform Matrix="0.999875,0,0,0.999875,152.981,99.9875"/>
+                </TransformGroup>
+            </ToggleButton.RenderTransform>
+        </local:OpenKeyNotationToggleButton>
+    </collections:ArrayList>
+
+    <Style TargetType="{x:Type local:OpenKeyNotationToggleButton}">
+        <Setter Property="Focusable" Value="False"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type local:OpenKeyNotationToggleButton}">
+                    <Grid>
+                        <Image Source="{Binding WheelImage, RelativeSource={RelativeSource TemplatedParent}}"/>
+                        <StackPanel VerticalAlignment="Center"
+                                   HorizontalAlignment="Center"
+                                    TextElement.FontWeight="DemiBold"
+                                    
+                                    >
+                            <TextBlock FontSize="22" Text="{TemplateBinding Content}"
+                                       TextAlignment="Center"
+                                   />
+                            <TextBlock FontSize="24" 
+                                       TextAlignment="Center"
+                                       Text="{Binding OpenKey, RelativeSource={RelativeSource TemplatedParent}}"
+                                   />
+                        </StackPanel>
+                    </Grid>
+
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="ToggleButton.IsChecked" Value="True">
+                            <Setter Property="Opacity" Value="0.5"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="{x:Type local:OpenKeyNotationControl}">
+                       
+        <Setter Property="ItemsPanel">
+            <Setter.Value>
+                <ItemsPanelTemplate>
+                    <Canvas x:Name="OpenKeyCanvas" Width="639.92" Height="639.92" Clip="F1 M 0,0L 639.92,0L 639.92,639.92L 0,639.92L 0,0">
+                    </Canvas>
+                </ItemsPanelTemplate>
+            </Setter.Value>
+        </Setter>
+
+        <Setter Property="ItemsSource" Value="{StaticResource OpenKeyButtons}"/>
+
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type local:OpenKeyNotationControl}">
+                    <Viewbox>
+                    <Border Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="{TemplateBinding BorderThickness}"                            
+                            >
+                        <ItemsPresenter/>
+                    </Border>
+                    </Viewbox>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+</ResourceDictionary>
